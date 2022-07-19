@@ -2,7 +2,7 @@
 
 ## How to run with start script
 Note: A prerequisite is that docker needs to be installed. 
-//Insert link to docker download
+https://docs.docker.com/get-docker/
 
 ### If running on windows
 1. Run the following command `.\start.ps1`
