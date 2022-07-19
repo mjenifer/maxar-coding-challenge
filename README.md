@@ -35,4 +35,4 @@ Note 2: The number of request can be adjust by modifying the value in the [docke
 
 ## Shortcomings
 * Runner script is single threaded
-* Desired output depends on the runner.sh script
+* Desired formatted the output is handled by a script and not within the program itself
