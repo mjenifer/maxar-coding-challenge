@@ -3,6 +3,8 @@
 ## How to run with start script
 Note: A prerequisite is that docker needs to be installed. 
 https://docs.docker.com/get-docker/
+You may get prompted to install WSL when docker starts. If it happens then download
+https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi and install it
 
 ### If running on windows
 1. Run the following command `.\start.ps1`
