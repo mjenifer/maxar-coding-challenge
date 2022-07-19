@@ -19,6 +19,7 @@ Note 2: The number of request can be adjust by modifying the value in the [docke
 3. Next it will create the "runner" docker container
    1. That container will execcute a a script that will send curl requests based on an input environment variable
    2. The script will then output the results of the curl requests to `./output.txt`
+   3. The runner container will then format the REST results into the desired output of `{"jobs": [jobIds]}` to `./formattedOutput.txt`
 
 ## How to run without start script
 1. Run the following command
@@ -33,3 +34,4 @@ Note 2: The number of request can be adjust by modifying the value in the [docke
 
 ## Shortcomings
 * Runner script is single threaded
+* Desired output depends on the runner.sh script
