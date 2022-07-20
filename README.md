@@ -30,7 +30,7 @@ Note 2: The number of request can be adjust by modifying the value in the [docke
    ```
 2. The service can be access via curl.
   * Sample request
-    * `curl http://host.docker.internal:5000/getjobdetails/1234`
+    * `curl http://host.docker.internal:5000/getjobdetails/{id}`
 
 
 ## Shortcomings
