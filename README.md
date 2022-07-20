@@ -36,3 +36,6 @@ Note 2: The number of request can be adjust by modifying the value in the [docke
 ## Shortcomings
 * Runner script is single threaded
 * Desired formatted the output is handled by a script and not within the program itself
+* Another program for executing the GET requests would of been better than a bash script. Another Typescript program would be able to handle pararallel requests a lot beter than accomplishing it in bash. Or maybe used Postman for creating the requests.
+* Move the actual formatting of the output data to the program instead of handling it in a shell script. Would of made things a lot easier and is also what is called out in the requirements.
+* How the formatted data is created is pretty janky.
